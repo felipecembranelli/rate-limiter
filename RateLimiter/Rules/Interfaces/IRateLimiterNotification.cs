@@ -1,4 +1,6 @@
-﻿namespace RateLimiter.Rules.Interfaces
+﻿using System.Threading.Tasks;
+
+namespace RateLimiter.Rules.Interfaces
 {
     public interface IRateLimiterNotification
     {

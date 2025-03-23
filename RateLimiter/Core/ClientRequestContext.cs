@@ -1,4 +1,6 @@
-﻿namespace RateLimiter.Core
+﻿using System;
+
+namespace RateLimiter.Core
 {
     public class ClientRequestContext
     {

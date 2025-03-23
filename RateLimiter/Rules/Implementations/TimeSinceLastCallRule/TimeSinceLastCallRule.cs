@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Concurrent;
+using System.Threading.Tasks;
 using RateLimiter.Core;
 using RateLimiter.Rules.Base;
 

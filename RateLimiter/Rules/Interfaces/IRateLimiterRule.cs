@@ -1,4 +1,5 @@
 ﻿using RateLimiter.Core;
+using System.Threading.Tasks;
 
 namespace RateLimiter.Rules.Interfaces
 {

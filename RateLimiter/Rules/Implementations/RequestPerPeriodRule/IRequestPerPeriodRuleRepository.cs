@@ -1,4 +1,6 @@
-﻿namespace RateLimiter.Rules.Implementations.RequestPerPeriodRule
+﻿using System;
+
+namespace RateLimiter.Rules.Implementations.RequestPerPeriodRule
 {
     public interface IRequestPerPeriodRuleRepository
     {

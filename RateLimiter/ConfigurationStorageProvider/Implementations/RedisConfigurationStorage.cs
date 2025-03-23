@@ -1,5 +1,7 @@
 ﻿using RateLimiter.Rules;
 using RateLimiter.Rules.Interfaces;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace RateLimiter.ConfigurationStorageProvider.Implementations
 {
@@ -7,12 +9,12 @@ namespace RateLimiter.ConfigurationStorageProvider.Implementations
     {
         public Task<List<IRateLimiterRule>?> LoadAsync(string endpoint)
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
 
         public Task<bool> SaveAsync(string key, List<IRateLimiterRule> values)
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
     }
 }
